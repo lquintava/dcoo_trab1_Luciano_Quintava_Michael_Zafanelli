@@ -10,6 +10,9 @@ h2. Tarefas
 * *T002* - Planejamento das tarefas
 * *T003* - Criar classe Tênis
 * *T004* - Criar Classe Pessoa
+* *T005* - Criar imprimirPlacar
+* *T006* - Criar mudarPlacar
+* *T007* - Criar ganharJogo
 
 h2. Identificação
 
