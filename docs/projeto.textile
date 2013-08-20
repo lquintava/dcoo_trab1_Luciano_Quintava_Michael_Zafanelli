@@ -8,6 +8,8 @@ h2. Tarefas
 
 * *T001* - Criação da infra do projeto
 * *T002* - Planejamento das tarefas
+* *T003* - Criar classe Tênis
+* *T004* - Criar Classe Pessoa
 
 h2. Identificação
 
