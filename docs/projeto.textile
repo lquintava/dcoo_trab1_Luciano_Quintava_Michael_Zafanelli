@@ -13,6 +13,7 @@ h2. Tarefas
 * *T005* - Criar imprimirPlacar
 * *T006* - Criar mudarPlacar
 * *T007* - Criar ganharJogo
+* *T008* - Criar Ducumentação
 
 h2. Identificação
 
