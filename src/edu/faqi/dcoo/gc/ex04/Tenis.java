@@ -49,5 +49,11 @@ public class Tenis {
 	public void setPontuacao2(int pontuacao2) {
 		this.pontuacao2 = pontuacao2;
 	}
+	
+	public String imprimirPlacar(){
+		
+		return String.format("%02d x %02d", this.pontuacao1, this.pontuacao2);
+		
+	}
 
 }

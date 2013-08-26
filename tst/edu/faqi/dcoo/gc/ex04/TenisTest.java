@@ -11,8 +11,8 @@ public class TenisTest {
 
 		//1 - Atribuir valores
 		
-		Pessoa jog1 = new Pessoa();
-		Pessoa jog2 = new Pessoa();
+		Pessoa jog1 = new Pessoa("guga", 13);
+		Pessoa jog2 = new Pessoa("Joga", 15);
 		
 		//2 - Acionar metodos
 		
@@ -49,6 +49,21 @@ public class TenisTest {
 		assertTrue("Deveria ser Dupla", dupla == true);
 		assertTrue("Jogador 1 deveria começar com Zero", pontosJoga1 == 0);
 		assertTrue("Jogador 2 deveria começar com Zero", pontosJoga2 == 0);
+	}
+	
+	public void testIprimirPlacar(){
+		
+		//1 - Atribuir valores
+		Pessoa j1 = new Pessoa("Maria", 13);
+		Pessoa j2 = new Pessoa("Paula", 15);
+		
+		Tenis tenis = new Tenis(j1, j2);
+		//2 - Acionar metodos
+		
+		String placarObj = tenis.imprimirPlacar();
+		
+		//3 - Avaliar resultados
+		assertTrue("Placar deveria ser '00 x 00'!", "00 x 00".equals(placarObj));
 	}
 
 }
