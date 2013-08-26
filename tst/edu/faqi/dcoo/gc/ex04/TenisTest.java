@@ -32,10 +32,10 @@ public class TenisTest {
 
 		//1 - Atribuir valores
 		
-		Pessoa jog1 = new Pessoa();
-		Pessoa jog2 = new Pessoa();
-		Pessoa jog3 = new Pessoa();
-		Pessoa jog4 = new Pessoa();
+		Pessoa jog1 = new Pessoa("guga", 13);
+		Pessoa jog2 = new Pessoa("joao", 14);
+		Pessoa jog3 = new Pessoa("Pedro", 13);
+		Pessoa jog4 = new Pessoa("Juca", 15);
 		
 		//2 - Acionar metodos
 		
