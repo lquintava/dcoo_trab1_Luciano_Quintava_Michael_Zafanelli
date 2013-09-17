@@ -1,0 +1,49 @@
+
+
+*1)* Responda as seguintes questões:
+
+*1.2)* Descreva o que é um padrão.
+ É uma maneira testada ou documentada de alcançar um objetivo qualquer. Os padrões são comuns em várias áreas da engenharia e não são invenções originais
+
+*1.3)* Qual o principal objetivo dos padrões do Catálogo GRASP?
+ Programar melhor com orientação a objetos, desenvolver softwares de qualidade, utilizando eficientemente polimorfismo , herança, modularidade, composição, abstração para construir código reutilizável, eficiente de alta coesão e baixo acoplamento.
+
+*1.4)* Descreva brevemente o padrão Criador.
+ Muitas das vezes é aplicado ao objeto que conhece os dados iniciais do objeto a ser criado. São objeto com responsabilidade de criar outros objetos.
+
+*1.5)* Descreva brevemente o padrão Especialista.
+ É um objeto que deve ter conhecimentos para realizar determinadas tarefas, exemplo, calcular o valor total de uma venda.  Reúne informações de outras classes ‘leves’  e mantém o comportamento distribuído, favorecendo a alta coesão.
+
+*1.6)* Descreva brevemente o padrão Alta Coesão.
+ Classes que mantém tarefas que fazem parte da proposta a qual foram criadas, que não faz coisas não relacionadas à outras classes.
+
+*2)* Utilizando polimorfismo, faça uma classe abstrata MeioComunicacao que 
+contenha um método abstrato imprime. Faça uma classe Radio que ira herdar de MeioComunicacao, contendo nome, estação e banda. Deverá conter um 
+método trocaEstacao, trocaNome e um método trocaBanda. Deve conter o 
+método imprime de forma a apresentar o nome, estação e a banda. Faça uma 
+classe TV que irá herdar de MeioComunicacao, contendo nome e número do canal. 
+Deverá conter um método trocaCanal e trocaNome. Deverá conter o método 
+imprime de forma a apresentar o canal e o nome. Faça uma classe chamada 
+ControleRemoto. A classe ControleRemoto deve conter um método chamado info 
+que apresenta o conteúdo dos atributos das classes derivadas de 
+MeioComunicação. Faça um teste unitário que demonstre a utilização de um 
+conjunto de rádios e TVs. Faça o exercício no package edu.faqi.dcoo.trab1.ex02.
+
+*3)* Modele utilizando o diagrama de classes o seguinte problema:
+Uma faculdade necessita de um novo sistema de biblioteca, pois o antigo apresenta 
+problemas de arquitetura, dados, entre outros. Para esta primeira fase o domínio 
+sera separado em 3 grandes áreas: Usuários, Recursos (livros e afins) e 
+Infraestrutura. O antigo sistema não pode ser usado como base pois não há 
+documentação confiável do mesmo; portanto o problema deve ser modelado do 
+principio.
+O aluno deve pensar no domínio do problema e resolve-lo através de seu 
+conhecimento e experiência. Algumas condições para este exercício:
+
+*a)* Cada grande área deve ter no mínimo 3 classes;
+
+*b)* O aluno deve mostrar onde os padrões GRASP estão sendo utilizados e quais;
+
+*c)* Devem ser modelados os principais métodos das classes;
+
+*d)* As classes/métdos devem seguir o "Java code 
+standard":http://www.oracle.com/technetwork/java/codeconvtoc-136057.html
