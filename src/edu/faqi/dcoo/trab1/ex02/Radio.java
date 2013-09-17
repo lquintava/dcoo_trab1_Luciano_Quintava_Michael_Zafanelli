@@ -35,4 +35,7 @@ public class Radio extends MeioComunicacao {
 	public String imprime() {
 		return "Nome - " + this.nome  +"Estação - "+this.estacao + "Banda - " + this.banda;
 	}
+	
+	//oookmmc
+	// teste
 }
